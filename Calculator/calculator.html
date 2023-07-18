@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Calculator.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Calculater</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="calculater">
+        <div id="screen" class="calculater-screen">
+          <p id="result" class="screen-result">0</p>
+        </div>
+        <div class="calculater-buttons">
+          <button id="reset_button" class="calculater-button action-button">
+            C
+          </button>
+          <button id="delete_button" class="calculater-button action-button">
+            DE
+          </button>
+          <button id="dot_button" class="calculater-button action-button">
+            .
+          </button>
+          <button class="calculater-button action-button operational-button">
+            /
+          </button>
+          <button class="calculater-button numeric-button">7</button>
+          <button class="calculater-button numeric-button">8</button>
+          <button class="calculater-button numeric-button">9</button>
+          <button class="calculater-button operational-button action-button">
+            *
+          </button>
+          <button class="calculater-button numeric-button">4</button>
+          <button class="calculater-button numeric-button">5</button>
+          <button class="calculater-button numeric-button">6</button>
+          <button class="calculater-button operational-button action-button">
+            -
+          </button>
+          <button class="calculater-button numeric-button">1</button>
+          <button class="calculater-button numeric-button">2</button>
+          <button class="calculater-button numeric-button">3</button>
+          <button class="calculater-button operational-button action-button">
+            +
+          </button>
+          <button class="calculater-button numeric-button">00</button>
+          <button class="calculater-button numeric-button">0</button>
+          <button
+            id="equal_button"
+            class="calculater-button equal-button action-button"
+          >
+            =
+          </button>
+        </div>
+      </div>
+      <script src="Calculator.js"></script>
+    </main>
+  </body>
+</html>
