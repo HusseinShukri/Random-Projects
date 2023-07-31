@@ -41,10 +41,11 @@ body{
 }
 
 #clicked{
-    background-color: blueviolet;
+    background-color: #7faaff;
 }
 
 .tic-tac-toe-controls{
+    cursor: pointer;
     display:flex;
     flex-direction: row;
     justify-content: center;
@@ -54,7 +55,12 @@ body{
 }
 
 .reset-button{
-    background-color: rgb(212, 139, 30);
+    background-color: #ff7faa;
     width: 6rem;
     height: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    outline-style: solid;
 }
